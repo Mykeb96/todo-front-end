@@ -29,7 +29,6 @@ function Todo({title, id, setTodos})
             <button onClick={() => {
                 setEditMode(false)
                 setTodos(prevTodos => prevTodos.filter(todo => todo.id !== id))
-                console.log('testing')
             }}>delete</button>
         </div>
     )

@@ -25,7 +25,7 @@ function App() {
             <UserButton />
           </SignedIn>
             <Link to="/">Home</Link>
-            <Link to="/todos">ToDo</Link>
+            <Link to="https://todo-front-end-theta.vercel.app/todos">ToDo</Link>
         </nav>
 
         <Routes>
