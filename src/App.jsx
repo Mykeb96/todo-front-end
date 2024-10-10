@@ -24,8 +24,8 @@ function App() {
           <SignedIn>
             <UserButton />
           </SignedIn>
-            <Link to="/">Home</Link>
-            <Link to="/todos">ToDo</Link>
+            <Link to="/" as={"/"}>Home</Link>
+            <Link to="/todos" as={"/todos"}>ToDo</Link>
         </nav>
 
         <Routes>
