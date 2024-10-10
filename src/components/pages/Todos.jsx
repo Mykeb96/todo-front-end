@@ -80,7 +80,7 @@ export default function Todos()
                         title={todo.title} 
                         id={todo.id} 
                         setTodoInput={setTodoInput}
-                        todos={todos}
+                        setTodos={setTodos}
                     />
                 )}
             </div>
